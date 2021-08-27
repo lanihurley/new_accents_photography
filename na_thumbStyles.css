@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*
+   
+   Case Problem 1
+   Styles for the thumbnail figure box for New Accents Photography
+
+   Filename: na_thumbStyles.css
+   Supporting Files: 
+
+*/
+
+/* styles for thumbnail figure box */
+
+   
+figure#styleThumbs { 
+   position: absolute; 
+   left: 0px; 
+   bottom: 0px; 
+}
+   
+  
+figure#styleThumbs img { 
+   outline: 1px solid black; 
+   cursor: pointer; 
+   opacity: 0.75; 
+}
+   
+figure#styleThumbs img:hover { 
+   outline: 1px solid red; 
+   opacity: 1.0; 
+}
